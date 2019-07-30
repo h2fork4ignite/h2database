@@ -39,7 +39,6 @@ import org.h2.test.db.TestDrop;
 import org.h2.test.db.TestDuplicateKeyUpdate;
 import org.h2.test.db.TestEncryptedDb;
 import org.h2.test.db.TestExclusive;
-import org.h2.test.db.TestFullText;
 import org.h2.test.db.TestFunctionOverload;
 import org.h2.test.db.TestFunctions;
 import org.h2.test.db.TestGeneralCommonTableQueries;
@@ -762,7 +761,6 @@ kill -9 `jps -l | grep "org.h2.test." | cut -d " " -f 1`
         addTest(new TestDuplicateKeyUpdate());
         addTest(new TestEncryptedDb());
         addTest(new TestExclusive());
-        addTest(new TestFullText());
         addTest(new TestFunctionOverload());
         addTest(new TestFunctions());
         addTest(new TestInit());
